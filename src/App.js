@@ -16,15 +16,19 @@ function App() {
         </ParallaxLayer> */}
 
         <ParallaxLayer
-          offset={0}
+          offset={1}
           speed={1}
           factor={2}
           style={{
             // backgroundImage: `url(${moon})`,
             backgroundColor: 'black',
             backgroundSize: 'cover',
+            
           }}
-        />
+          ><h2 className='About'>About me</h2>
+          <h3 className='About'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+          <h3 className='About'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h3>
+          </ParallaxLayer>
 
         <ParallaxLayer
           offset={2}
@@ -38,8 +42,12 @@ function App() {
         ></ParallaxLayer>
 
         <ParallaxLayer
-          sticky={{ start: 0.9, end: 2.5 }}
-          style={{ textAlign: 'center' }}
+          offset={3}
+          speed={1}
+          factor={3}
+          //sticky={{ start: 0.9, end: 2.5 }}
+          style={{ textAlign: 'center',
+          backgroundColor: 'pink' }}
         >
           {/* <img src={cat} /> */}
         </ParallaxLayer>

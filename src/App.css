@@ -22,3 +22,9 @@
     transform: rotate(360deg);
   }
 }
+
+.About{
+  text-align: center;
+  margin: 10rem;
+  color: rgb(192, 187, 187);
+}
