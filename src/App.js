@@ -1,13 +1,16 @@
 import './App.css';
+import { About } from './components/Item/AboutSlide';
 import Navbar from './components/Navbar/Nav'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
 
 function App() {
+
   return (
     <div className="App">
       <Navbar sticky="top"/>
-      <Parallax pages={4} >
+      <Parallax pages={4} 
+      style={{ backgroundColor: 'yellowgreen'}}>
         {/* <ParallaxLayer speed={1}>
             <h2>Welcome to my website</h2>
         </ParallaxLayer>
@@ -25,9 +28,7 @@ function App() {
             backgroundSize: 'cover',
             
           }}
-          ><h2 className='About'>About me</h2>
-          <h3 className='About'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-          <h3 className='About'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h3>
+          ><About/>
           </ParallaxLayer>
 
         <ParallaxLayer
@@ -39,7 +40,9 @@ function App() {
             backgroundColor: 'orange',
             backgroundSize: 'cover',
           }}
-        ></ParallaxLayer>
+        ><h2 className='paraltext'>My Projects</h2>
+        {/* <ProjectContainer/> */}
+        </ParallaxLayer>
 
         <ParallaxLayer
           offset={3}
@@ -57,7 +60,8 @@ function App() {
           speed={0.05}
           // onClick={() => ref.current.scrollTo(3)}
         >
-          <h2>Welcome to my website!</h2>
+          <h1>Welcome to my website!</h1>
+          <h3> Front-End Developer Jr</h3>
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -65,7 +69,7 @@ function App() {
           speed={2}
           // onClick={() => ref.current.scrollTo(0)}
         >
-          <h2>Contact Info.</h2>
+          <h2 className='paraltext'>Contact Info.</h2>
         </ParallaxLayer>
       </Parallax>
     </div>
