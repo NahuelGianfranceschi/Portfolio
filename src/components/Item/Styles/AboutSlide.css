@@ -9,3 +9,17 @@
     margin: 4rem;
     color: rgb(192, 187, 187);
   }
+
+.skillContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}   
+
+.skills{ 
+margin-inline: 2rem;  
+margin-top: 2rem;
+margin-bottom: 2rem;
+width: 10rem;
+height: 10rem;
+}  
