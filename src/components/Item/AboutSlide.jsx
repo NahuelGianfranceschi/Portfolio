@@ -7,6 +7,7 @@ import JS from '../images/JS.png'
 import react from '../images/react.png'
 import Node from '../images/Node.png'
 import Sass from '../images/Sass.png'
+import Git from '../images/Git.png'
 
 export const About = () =>{
 
@@ -22,8 +23,9 @@ return(
           <img className='skills' src={CSS} alt="CSS-logo" />
           <img className='skills' src={JS} alt="JS-logo" />
           <img className='skills' src={react} alt="react-logo" />
-          <img className='skills' src={Node} alt="Node-logo" />
+          <img id='nodeimg' className='skills' src={Node} alt="Node-logo" />
           <img className='skills' src={Sass} alt="Sass-logo" />
+          <img className='skills' src={Git} alt="Git-Logo" />
           
           </div>
 </div>

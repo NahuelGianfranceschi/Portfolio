@@ -1,7 +1,9 @@
 import './App.css';
 import { About } from './components/Item/AboutSlide';
+import { Welcome } from './components/Item/WelcomeSlide';
 import Navbar from './components/Navbar/Nav'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import fondoCyber from './components/images/fondoCyber.gif'
 
 
 function App() {
@@ -10,7 +12,8 @@ function App() {
     <div className="App">
       <Navbar sticky="top"/>
       <Parallax pages={4} 
-      style={{ backgroundColor: 'yellowgreen'}}>
+      style={{ backgroundImage:{fondoCyber}}}>
+        <Welcome/>
         {/* <ParallaxLayer speed={1}>
             <h2>Welcome to my website</h2>
         </ParallaxLayer>
@@ -60,8 +63,8 @@ function App() {
           speed={0.05}
           // onClick={() => ref.current.scrollTo(3)}
         >
-          <h1>Welcome to my website!</h1>
-          <h3> Front-End Developer Jr</h3>
+          {/* <h1>Welcome to my website!</h1>
+          <h3> Front-End Developer Jr</h3> */}
         </ParallaxLayer>
 
         <ParallaxLayer
