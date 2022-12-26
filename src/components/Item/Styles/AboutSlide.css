@@ -1,12 +1,19 @@
 .presentation{
-    text-align: center;
-    margin: 10rem;
-    color: rgb(192, 187, 187);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  text-align: center;
+  margin: 8%;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  color: rgb(192, 187, 187);
   }
 
 .aboutText{
     text-align: center;
-    margin: 4rem;
+    margin: 4%;
     color: rgb(192, 187, 187);
   }
 

@@ -31,5 +31,27 @@
 .paraltext{
   text-align: center;
   margin: 10rem;
-  color: rgb(20, 20, 20);
+  color: rgb(192, 187, 187);
+}
+
+#WelcomeLayer{
+  background-image: url(components/images/green.jpg);
+  width: 100vw;
+  height: 100vh;
+}
+
+
+#AboutLayer{
+
+}
+
+#ProyectsLayer{
+
+}
+
+#ContactLayer{
+  background-image: -webkit-gradient(
+    linear, right bottom, right top, from(rgba(50,50,50,0.8)),
+    to(rgba(80,80,80,0.2)), color-stop(.1,#333333)
+  )
 }

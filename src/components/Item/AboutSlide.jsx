@@ -16,7 +16,9 @@ return(
 
 <div className='presentation'>
 <h2 className='aboutText'>About me</h2>
-          <h3 className='aboutText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+          <h3 className='aboutText'>Jr. Front-End Developer and student of Web Development Technical Degree with experience in
+assembling and prototyping web pages. I am interested in everything related to the IT world (object-oriented programming, Machine learning, AI) and I look to be able to learn and perform in a position
+that allows me to grow in this field.</h3>
           <h3 className='aboutText'>Tools I use</h3>
           <div className='skillContainer'>
           <img className='skills' src={HTML} alt="HTML5-logo" />

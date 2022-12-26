@@ -7,7 +7,7 @@ import './Nav.css'
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className='Nav' bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Nahuel Gianfranceschi </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

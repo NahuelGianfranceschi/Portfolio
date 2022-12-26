@@ -1,21 +1,21 @@
 .landingText{
     text-align: center;
-    margin: 2rem;
+    margin: 1rem;
+    color: rgb(225, 225, 230);
 }
 
 .landing{
     text-align: center;
-    margin: 4rem;
+    margin: 3rem;
 }
 
 .retrato{
     border: solid;
-    border-color: darkorchid;
+    border-color: rgb(132, 232, 44);
     border-width: 4px;
-    float: left;
-    margin-left: 4vw;
-    margin-top: 8vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     width: 20rem;
-    height:  25rem;
     border-radius: 150px;
+    margin-top: 2rem;
 }
