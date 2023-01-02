@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Styles/ProyectsSlide.css';
+import './Styles/ProjectsSlide.css';
 import Libreta from '../images/Libreta.png'
 import GoT from '../images/GoT.png'
 
-export const Proyects = () =>{
+export const Projects = () =>{
 
 
     return(

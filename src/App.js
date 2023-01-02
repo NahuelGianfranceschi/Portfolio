@@ -1,8 +1,9 @@
 import './App.css';
 import { About } from './components/Item/AboutSlide';
-import { Proyects } from './components/Item/ProyectContainer';
+import { Projects } from './components/Item/ProjectContainer';
 import { Welcome } from './components/Item/WelcomeSlide';
 import { Contact } from './components/Item/ContactSlide';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Nav'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
@@ -11,7 +12,9 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 function App() {
 
   return (
+    
     <div className="App">
+      
       <Navbar sticky="top"/>
       <Parallax id='WelcomeLayer' pages={4} 
       >
@@ -34,13 +37,13 @@ function App() {
           ><About/>
           </ParallaxLayer>
 
-        <ParallaxLayer id='ProyectsLayer'
+        <ParallaxLayer id='ProjectsLayer'
           offset={2}
           speed={1}
           factor={4}
           
         ><h2 className='paraltext'>My Projects</h2>
-        <Proyects/>
+        <Projects/>
         </ParallaxLayer>
 
         <ParallaxLayer 
@@ -71,7 +74,10 @@ function App() {
           <Contact/>
         </ParallaxLayer>
       </Parallax>
+      
     </div>
+    
+      
   );
 }
 
