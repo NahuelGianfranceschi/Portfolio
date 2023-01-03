@@ -1,18 +1,23 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './Nav.css'
 
-
-function BasicExample() {
+function Navibar() {
   return (
-    <nav>
-        <ul class="navegacion">
-            <li> <a href="#ProjectsLayer"> Projects </a> </li>
-        </ul>
-    </nav>
+    <>
+      <Navbar className='navegacion' bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Nahuel Gianfranceschi</Navbar.Brand>
+          <Nav className="me-auto">
+            {/* 
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#ProjectsLayer">Projects</Nav.Link>
+            */}
+          </Nav>
+        </Container>
+      </Navbar>
+      </>
   );
 }
 
-export default BasicExample;
+export default Navibar;

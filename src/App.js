@@ -6,6 +6,7 @@ import { Contact } from './components/Item/ContactSlide';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Nav'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import Navibar from './components/Navbar/Nav';
 
 
 
@@ -15,7 +16,7 @@ function App() {
     
     <div className="App">
       
-      <Navbar sticky="top"/>
+      <Navibar/>
       <Parallax id='WelcomeLayer' pages={4} 
       >
         <Welcome/>
