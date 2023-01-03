@@ -19,12 +19,6 @@ function App() {
       <Parallax id='WelcomeLayer' pages={4} 
       >
         <Welcome/>
-        {/* <ParallaxLayer speed={1}>
-            <h2>Welcome to my website</h2>
-        </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5}>
-            <h2>Web development is fun!</h2>
-        </ParallaxLayer> */}
 
         <ParallaxLayer id='AboutLayer'
           offset={1}

@@ -1,6 +1,9 @@
 .Nav{
     position:sticky;
 }
-.vinculo{
+.navegacion{
+
+    height: 4rem;
+    width: 100vw;
     
 }

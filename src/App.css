@@ -55,3 +55,7 @@
     to(rgba(80,80,80,0.2)), color-stop(.1,#333333)
   )
 }
+
+html{
+  scroll-behavior: smooth;
+}
