@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles/ProjectsSlide.css';
-import Libreta from '../images/Libreta.png'
-import GoT from '../images/GoT.png'
+import Libreta from '../images/Libreta.png';
+import GoT from '../images/GoT.png';
 
 export const Projects = () =>{
 
@@ -25,7 +25,7 @@ export const Projects = () =>{
         <img className='trabajos' src="" alt="" />
         <h2 className='textoT'>Tailored</h2>
     </div>
-    
+        
     </div>
     );
     

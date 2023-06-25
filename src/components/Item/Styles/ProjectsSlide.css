@@ -18,7 +18,7 @@
 .trabajos{
     width: 90%;
     height: 20vh;
-    border: rgb(132, 232, 44);
+    border: palegreen;
     border-style: solid;
     border-radius: 10px;
 }

@@ -35,7 +35,9 @@
 }
 
 #WelcomeLayer{
-  background-image: url(components/images/green.jpg);
+  background-image: url(components/images/green.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
 }

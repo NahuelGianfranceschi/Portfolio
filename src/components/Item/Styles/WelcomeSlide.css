@@ -11,11 +11,26 @@
 
 .retrato{
     border: solid;
-    border-color: rgb(132, 232, 44);
-    border-width: 4px;
+    border-color: palegreen;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     width: 20rem;
     border-radius: 150px;
     margin-top: 2rem;
+}
+
+.logolanding{
+    border-radius: 300px;
+    width: 20rem;
+    height: 20rem;
+    place-self: center;
+    margin-top: 1rem;
+    border: solid;
+    border-color: palegreen;
+}
+
+.landingimgs{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
 }
