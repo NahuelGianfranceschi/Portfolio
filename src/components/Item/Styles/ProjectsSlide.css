@@ -21,6 +21,13 @@
     border: palegreen;
     border-style: solid;
     border-radius: 10px;
+    -webkit-transition:  0.4 ease-in-out;
+    transition:  0.8 ease-in-out;
+    cursor: pointer;
+}
+
+.trabajos:hover{
+    transform: scale(1.2)
 }
 
 @media only screen and (max-width: 768px) {

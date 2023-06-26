@@ -4,9 +4,9 @@ import { Projects } from './components/Item/ProjectContainer';
 import { Welcome } from './components/Item/WelcomeSlide';
 import { Contact } from './components/Item/ContactSlide';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Navbar from './components/Navbar/Nav'
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Navibar from './components/Navbar/Nav';
+
 
 
 
@@ -15,7 +15,7 @@ function App() {
   return (
     
     <div className="App">
-      
+      <BrowserRouter>
       <Navibar/>
       <Parallax id='WelcomeLayer' pages={4} 
       >
@@ -34,7 +34,7 @@ function App() {
 
         <ParallaxLayer id='ProjectsLayer'
           offset={2}
-          speed={1}
+          speed={2}
           factor={4}
           
         ><h2 className='paraltext'>My Projects</h2>
@@ -56,8 +56,7 @@ function App() {
           speed={0.05}
           // onClick={() => ref.current.scrollTo(3)}
         >
-          {/* <h1>Welcome to my website!</h1>
-          <h3> Front-End Developer Jr</h3> */}
+          
         </ParallaxLayer>
 
         <ParallaxLayer id='ContactLayer'
@@ -68,7 +67,9 @@ function App() {
           <h2 className='paraltext'>Contact Info.</h2>
           <Contact/>
         </ParallaxLayer>
+    
       </Parallax>
+      </BrowserRouter>
       
     </div>
     
