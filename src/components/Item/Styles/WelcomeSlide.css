@@ -1,7 +1,7 @@
 .landingText{
     text-align: center;
     margin: 1rem;
-    color: rgb(225, 225, 230);
+    color: rgb(255, 255, 255);
 }
 
 .landing{
@@ -34,3 +34,16 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 768px){
+
+    .retrato{
+      width: 15rem;
+      height: 15rem;     
+    }
+    .logolanding{
+        width: 15rem;
+        height: 15rem;     
+      }
+  
+  }

@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navibar/>
-      <Parallax id='WelcomeLayer' pages={4} 
+      <Parallax className='parallaxmedia' id='WelcomeLayer' pages={4} 
       >
         <Welcome/>
 
@@ -64,7 +64,7 @@ function App() {
           speed={2}
           // onClick={() => ref.current.scrollTo(0)}
         >
-          <h2 className='paraltext'>Contact Info.</h2>
+          <h2 id='contactText' className='paraltext'>Contact Info.</h2>
           <Contact/>
         </ParallaxLayer>
     

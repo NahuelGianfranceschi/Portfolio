@@ -26,29 +26,33 @@
 .About{
   text-align: center;
   margin: 10rem;
-  color: rgb(192, 187, 187);
+  color: rgb(245, 245, 245);
 }
 .paraltext{
   text-align: center;
-  margin: 10rem;
-  color: rgb(192, 187, 187);
+  margin-bottom: 10rem;
+  color: rgb(255, 255, 255);
+}
+#contactText{
+  margin-top: 4rem;
 }
 
 #WelcomeLayer{
-  background-image: url(components/images/green.jpeg);
+  background-image: url(components/images/BGP1.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 100vh;
 }
 
 
 #AboutLayer{
-
+background-image: url(components/images/BGP2.svg) ;
+background-size: cover !important;
+height: 2000px !important;
 }
 
 #ProjectsLayer{
-
+  background-image: url(components/images/BGP3.svg) ;
+  background-size: cover !important;
 }
 
 #ContactLayer{
@@ -60,4 +64,13 @@
 
 html{
   scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 768px){
+
+  .parallaxmedia{
+    
+    
+  }
+
 }
