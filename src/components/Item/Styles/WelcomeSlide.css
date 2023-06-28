@@ -36,14 +36,35 @@
 }
 
 @media only screen and (max-width: 768px){
-
+    .landingimgs{
+        margin-top: 2rem;
+    }
     .retrato{
       width: 15rem;
-      height: 15rem;     
+      height: 20rem;
+      margin-left: 1rem;     
     }
     .logolanding{
         width: 15rem;
-        height: 15rem;     
+        height: 15rem;
+        margin-right: 1rem;     
       }
   
   }
+
+  @media only screen and (max-width: 450px){
+    .landingimgs{
+        margin-top: 2rem;
+    }
+    .retrato{
+      width: 10rem;
+      height: 13rem;
+      margin-left: 1rem;     
+    }
+    .logolanding{
+        width: 10rem;
+        height: 10rem;
+        margin-right: 1rem;     
+      }
+  
+  }  

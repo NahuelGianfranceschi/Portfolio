@@ -35,3 +35,42 @@ height: 10rem;
 #nodeimg{
   width: 14rem;
 }
+
+@media only screen and (max-width: 768px){
+
+  .skills{
+    margin-inline: 2rem;  
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 6rem;
+    height: 6rem;
+  }
+  #nodeimg{
+    width: 8rem;
+  }
+  .presentation{
+    margin-top: 15rem;    
+  }
+  .skillContainer{
+    margin-top: 4rem;
+  } 
+}
+
+@media only screen and (max-width: 450px){
+  .skills{
+    margin-inline: 2rem;  
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  #nodeimg{
+    width: 7rem;
+  }
+  .presentation{
+    margin-top: 15rem;    
+  }
+  .skillContainer{
+    margin-top: 4rem;
+  }
+}

@@ -36,6 +36,17 @@
         margin-top: 50rem;
         
     }
-    
+}
 
+@media only screen and (max-width: 450px){
+    .trabajos{
+        width: 80%;
+        height: 15vh;
+        border: palegreen;
+        border-style: solid;
+        border-radius: 10px;
+        -webkit-transition:  0.4 ease-in-out;
+        transition:  0.8 ease-in-out;
+        cursor: pointer;
+    }
 }

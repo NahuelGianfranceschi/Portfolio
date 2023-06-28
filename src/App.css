@@ -68,9 +68,16 @@ html{
 
 @media only screen and (max-width: 768px){
 
-  .parallaxmedia{
-    
-    
+  #AboutLayer{
+    height: 2150px !important;    
+  }
+
+}
+
+@media only screen and (max-width: 450px){
+
+  #AboutLayer{
+    height: 2500px !important;    
   }
 
 }
