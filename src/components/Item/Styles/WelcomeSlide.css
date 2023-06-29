@@ -68,3 +68,19 @@
       }
   
   }  
+  @media only screen and (max-width: 360px){
+    .landingimgs{
+        margin-top: 2rem;
+    }
+    .retrato{
+      width: 8rem;
+      height: 10rem;
+      margin-left: 1rem;     
+    }
+    .logolanding{
+        width: 8rem;
+        height: 8rem;
+        margin-right: 1rem;     
+      }
+  
+  }  

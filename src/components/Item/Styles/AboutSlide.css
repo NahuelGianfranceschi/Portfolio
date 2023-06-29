@@ -74,3 +74,21 @@ height: 10rem;
     margin-top: 4rem;
   }
 }
+@media only screen and (max-width: 360px){
+  .skills{
+    margin-inline: 2rem;  
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  #nodeimg{
+    width: 5rem;
+  }
+  .presentation{
+    margin-top: 15rem;    
+  }
+  .skillContainer{
+    margin-top: 4rem;
+  }
+}

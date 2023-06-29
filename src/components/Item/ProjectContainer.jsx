@@ -29,7 +29,7 @@ export const Projects = () =>{
     </div>
 
     <div>
-    <a href="https://github.com/NahuelGianfranceschi/CristalesSaenz"><img className='trabajos' src={CristalesSaenz} alt="" /></a>
+    <a href="https://github.com/NahuelGianfranceschi/CristalesSaenz"><img id='CristalesS' className='trabajos' src={CristalesSaenz} alt="" /></a>
         <h2 className='textoT'>CristalesSaenz</h2>
     </div>
         

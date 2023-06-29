@@ -81,3 +81,11 @@ html{
   }
 
 }
+
+@media only screen and (max-width: 360px){
+
+  #AboutLayer{
+    height: 2700px !important;    
+  }
+
+}
