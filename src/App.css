@@ -89,3 +89,10 @@ html{
   }
 
 }
+@media only screen and (max-width: 360px){
+
+  #AboutLayer{
+    height: 2800px !important;    
+  }
+
+}

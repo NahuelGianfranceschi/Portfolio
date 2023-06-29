@@ -65,3 +65,22 @@
         width: 50%;
     }
 }
+@media only screen and (max-width: 285px){
+    .trabajos{
+        width: 54%;
+        height: 15vh;
+        border: palegreen;
+        border-style: solid;
+        border-radius: 10px;
+        -webkit-transition:  0.4 ease-in-out;
+        transition:  0.8 ease-in-out;
+        cursor: pointer;
+    }
+    #CristalesS{
+        width: 40%;
+    }
+    .contenedorT{
+        margin:1rem;
+        padding:1rem ;
+    }
+}    
